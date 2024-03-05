@@ -1,0 +1,5 @@
+DBHeelper is a helper class to manage database creation and version management
+DBManager is a class to peform datatbase operations like insert, select, delete e.t.c
+We never delete the data forever we always soft delete inside the data 
+by simply adding a flex and valuing it to 0 and 1 so that when it's 1 then only we have to use it
+Main Activity demonstrates how to use the DBManager class to insert data into database and display it in textView.
